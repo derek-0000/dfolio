@@ -1,9 +1,10 @@
 <script setup>
+import DragAndDrop from './components/DragAndDrop.vue'; 
 import splashScreenVue from './components/splashScreen.vue';
 </script>
 
 <template>
-  <splashScreenVue />
+  <DragAndDrop />
 </template>
 
 <style scoped>
